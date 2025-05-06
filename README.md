@@ -19,12 +19,14 @@ get immediate feedback on your code's correctness before you submit it.
 Create a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 of this repository and clone it locally.
 
-[!image](img/fork.png)
+![image](img/fork.png)
 
 ### Enabling the workflow
 
 To enable the Github Action workflow for googletest, you will have to go to the
 actions tab and click enable actions in your fork.
+
+![image](img/actions.png)
 
 ### Viewing the workflow report
 
