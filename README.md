@@ -7,24 +7,26 @@ compile and test your implementation. This gives you an opportunity to
 get immediate feedback on your code's correctness before you submit it.
 
 > [!CAUTION]
-> Passing the tests does not imply you have completed the assignment.
-> You will still have to make a main function that answers all questions;
-> the tests here only check that the implementation of any functions you may
-> write for the assignment behave correctly.
+> Passing the test suite does not imply that you are done with the assignment.
+> Make sure to read the assignment instructions to see what you still need to
+> get done after the tests pass.
 
 ## To begin
 
 ### Forking
 
 Create a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-of this repository and clone it locally.
+of this repository by clicking the fork button in the top right. You will be prompted to change the name, which
+you should do so to differentiate it from the template. After doing this, you then can clone the new repository locally
+and begin working.
 
 ![image](img/fork.png)
 
 ### Enabling the workflow
 
-To enable the Github Action workflow for googletest, you will have to go to the
-actions tab and click enable actions in your fork.
+To get the test suite to run when you make pushes to your repository, you will have to enable the Github Action workflow.
+Go to the actions tab in your repository and click the green button to enable the test suite to run. The next time you
+make a push to your repository, the tests will run and report the results back to you in the actions tab.
 
 ![image](img/actions.png)
 
